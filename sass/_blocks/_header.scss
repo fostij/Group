@@ -1,0 +1,225 @@
+.header_overlay {
+  background: url("../../img/header_bg.jpg") no-repeat center center;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.header_overlay:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(57,75,95, 0.82);
+  border-bottom: none;
+}
+
+.top_nav {
+  padding-top: 50px;
+}
+
+.logo img {
+  position: relative;
+  max-width: 100px;
+  cursor: pointer;
+  display: block;
+  opacity: 0.9;
+}
+
+content {
+  display: none;
+}
+
+.main_menu {
+  position: relative;
+}
+.main_menu ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.main_menu li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.main_menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: $link;
+  font: 14px $default-font;
+  line-height: 48px;
+  opacity: .9;
+}
+
+.main_menu a:hover {
+  color: $link-hover;
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+
+.main_menu .activ a{
+  color: $link-hover;
+  text-decoration: underline;
+}
+
+.phone_wrap {
+  position: relative;
+}
+
+.phone {
+  position: relative;
+  opacity: .9;
+  color: $link;
+  font: 20px "RobotoBold";
+  line-height: 48px;
+  white-space: nowrap;
+  text-align: right;
+}
+
+
+.header_wrapper {
+  margin-top: 106px;
+}
+
+.headline_2 {
+  margin-top: 130px;
+}
+.headline_2 h1 {
+  display: inline-block;
+  font: 48px "PFCentroSlabProMedium", sans-serif;
+  color: $link;
+  border-bottom: 8px solid $accent;
+  padding-bottom: 8px;
+  margin-bottom: 43px;
+}
+
+.headline_2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headline_2 li {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.headline_2 a {
+  text-decoration: none;
+  font: 18px "RalewaySemiBold", sans-serif;
+  color: $link;
+  padding-left: 20px;
+}
+
+.headline_2 a:hover {
+  text-decoration: underline;
+}
+
+.headline_2 ul li:before {
+  content: "";
+  display: inline-block;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #F39F18;
+  border-top: 6px solid transparent;
+  margin-top: 4px;
+  top: 4px;
+  left: 0;
+  float: left;
+}
+
+.form {
+  width: 360px;
+  height: auto;
+  padding: 35px 30px 30px 35px;
+  background-color: rgba(36, 51, 67, .8);
+  color: $color-form-text;
+  border-bottom: $border-form 4px solid;
+}
+
+.form h4 {
+  color: $link;
+  font: 2.0625em "PFCentroSlabProMedium", sans-serif;
+  margin-bottom: 21px;
+}
+
+.form p {
+  font: 14px  "RalewayRegular", sans-serif;
+  margin-bottom: 30px;
+  line-height: 1.4375em;
+}
+
+.form span {
+  font: 13px "RalewayRegular", sans-serif;
+  display: block;
+  letter-spacing: 1.5px;
+}
+
+
+.form input {
+  display: inline-block;
+  color: $link;
+  width: 297px;
+  height: 48px;
+  border: none;
+  border-top: 4px solid $border-form;
+  background-color: rgba(52,70,90, .8);
+  margin: 10px 0 25px 0;
+  padding-left: 10px;
+  font: 14px "RalewayRegular", sans-serif;
+}
+
+.form input:focus {
+  display: inline-block;
+  border-top: 4px solid $button-buttom;
+  outline: none;
+  background-color: rgba(53,73,95, .8);
+  transition: all .5s ease-in-out;
+}
+
+.form_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_button .button  {
+  padding: 10px 35px;
+  background-color: $accent;
+  border: none;
+  border-bottom: 3px solid $button-buttom;
+  font: 20px "PFCentroSlabProBold", sans-serif;
+  outline: none;
+  margin: 5px 0 10px 0;
+  border-radius: 2px 2px 0 0;
+
+}
+
+.form_button .button:hover {
+  background-color: rgba(255,179,56, .9);
+  transition: all .45s ease;
+  color: $item-p;
+}
+
+.button_next img {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-top: 90px;
+  z-index: 2;
+  opacity: .7;
+  transition: all .25s ease;
+  cursor: pointer;
+}
+
+.button_next img:hover {
+  opacity: 1;
+}

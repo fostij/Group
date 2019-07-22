@@ -1,0 +1,123 @@
+.work {
+  background-color: $color-h1;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  padding: 100px 0 80px 0;
+}
+.work:before {
+  content: "";
+  background: url("../../img/bah_2.png") repeat;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  position: absolute;
+}
+
+.work h1 {
+  text-align: center;
+  font: 30px "PFCentroSlabProMedium", sans-serif;
+  color: $background_section-1;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.work h1:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-bottom: 4px solid $border-bottom;
+  width: 145px;
+  left: 44%;
+  border-radius: 1px;
+  bottom: 1px;
+}
+
+.img_item {
+  background: url("../../img/tc_triangle.svg") no-repeat;
+  position: relative;
+  width: 291px;
+  height: 130px;
+  display: inline-block;
+  text-align: left;
+  margin-left: -45px;
+  vertical-align: top;
+  padding: 50px 0 0 58px;
+}
+
+.img_item_1 {
+  background: url("../../img/tc_triangle_first.svg") no-repeat;
+  position: relative;
+  width: 291px;
+  height: 130px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  padding: 50px 0 0 30px;
+  margin-left: 0;
+}
+
+.img_item_1:hover {
+  transform: scale(1.1);
+  transition: all 1.2s ease;
+}
+
+.img_item:hover {
+  transform: scale(1.1);
+  transition: all 1.2s ease;
+}
+
+.triangle img {
+  width: 35px;
+  height: 35px;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  vertical-align: middle;
+  float: left;
+
+}
+
+.work_1 {
+  display: inline-block;
+  position: relative;
+  margin: 80px 0 0 50px;
+}
+
+.work_item span {
+  position: absolute;
+  font: 13px "PFCentroSlabProMedium", sans-serif;
+  color: $background_section-1;
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.work_item b {
+  font: 24px "PFCentroSlabProBold", sans-serif;
+}
+
+.work_button {
+  background-color: $armata-content;
+  max-width: 100%;
+  height: auto;
+  padding: 66px 0 60px 0;
+}
+
+.work_button button {
+  padding: 10px 30px;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background-color: $accent;
+  border: none;
+  font: 16px "PFCentroSlabProBold", sans-serif;
+  border-bottom: 3px solid $border-bottom;
+  color: $item-p;
+}
+
+.work_button button:hover {
+  background-color: rgba(255,179,56, .9);
+  transition: all .45s ease-in-out;
+}

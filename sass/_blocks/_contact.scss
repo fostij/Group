@@ -1,0 +1,110 @@
+.contact_site {
+  background-color: $background_section-1;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  padding: 100px 0 85px 0;
+}
+
+.contact_site:before {
+  content: "";
+  background: url("../../img/bah_1.png") repeat;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  position: absolute;
+}
+
+.contact_site h1 {
+  text-align: center;
+  font: 30px "PFCentroSlabProMedium", sans-serif;
+  color: $armata_button;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.contact_site h1:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-bottom: 4px solid $border-bottom;
+  width: 145px;
+  left: 43%;
+  border-radius: 1px;
+  bottom: 1px;
+}
+
+.contact_site p {
+  text-align: center;
+  margin-top: 30px;
+  font: 15px "RalewayRegular", sans-serif;
+  line-height: 22px;
+  opacity: .9;
+  color: $paragraph;
+}
+
+.contact_cards {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact_site .contact_cart {
+  display: inline-block;
+  width: 270px;
+  height: 385px;
+  background-color: $dials_background;
+  padding: 58px 28px 52px 28px;
+  margin: 65px 12px 30px 12px;
+  position: relative;
+  text-align: center;
+  transition: all 1.2s ease;
+  vertical-align: top;
+  border-bottom: 4px solid $finans-cart-background;
+}
+
+.contact_icons img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  transition: all 1.2s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact_icons {
+  display: inline-block;
+  line-height: 118px;
+  width: 120px;
+  height: 120px;
+  background-color: $finans-cart-background;
+  border-radius: 50%;
+}
+
+.contact_icons:hover {
+  background-color: $button-buttom;
+}
+.contact_cards h4 {
+  font: 16px "RalewayBold", sans-serif;
+  color: $paragraph;
+  margin: 30px 0 16px 0;
+}
+
+.contact_cards p {
+  font: 16px "RobotoBold", sans-serif;
+  color: $paragraph;
+  margin-top: 27px;
+}
+
+.contact_cards span {
+  color: $contact-background;
+  font: 13px "RalewayRegular", sans-serif;
+}
+.contact_site .contact_cart:hover {
+  cursor: pointer;
+  border-bottom: 4px solid $border-bottom;
+}
+
+.contact_icons:hover {
+  transform: scale(1.1);
+  transition: all 1.2s ease;
+}

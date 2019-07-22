@@ -1,0 +1,10 @@
+@import "_mixins/font-face";
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+@include font-face("PFCentroSlabProBold", "../fonts/PFCentroSlabProBold/PFCentroSlabProBold", bold)
+@include font-face("PFCentroSlabProMedium", "../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium", 300)
+@include font-face("RalewayBold", "../fonts/RalewayBold/RalewayBold", bold)
+@include font-face("RalewayRegular", "../fonts/RalewayRegular/RalewayRegular", 400)
+@include font-face("RalewaySemiBold", "../fonts/RalewaySemiBold/RalewaySemiBold", bold)
+@include font-face("RobotoBold", "../fonts/RobotoBold/RobotoBold", bold)

@@ -1,0 +1,141 @@
+.financ {
+  background-color: $dials_background;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  padding: 92px 0 70px 0;
+}
+
+.financ:before {
+  content: "";
+  background: url("../../img/bah_3.png") repeat;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  position: absolute;
+}
+
+.financ h1 {
+  text-align: center;
+  font: 30px "PFCentroSlabProMedium", sans-serif;
+  color: $armata_button;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.financ h1:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-bottom: 4px solid $border-bottom;
+  width: 145px;
+  left: 43%;
+  border-radius: 1px;
+  bottom: 1px;
+}
+
+.financ p {
+  text-align: center;
+  margin-top: 30px;
+  font: 15px "RalewayRegular", sans-serif;
+  line-height: 22px;
+  opacity: .9;
+  color: $paragraph;
+}
+
+.financ b {
+  font: 15px "RalewayBold", sans-serif;
+}
+
+.financ h2 {
+  font: 24px "PFCentroSlabProMedium", sans-serif;
+  text-align: center;
+  color: $armata-content;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+.cards {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.financ_cart .cart {
+  display: inline-block;
+  width: 270px;
+  height: 385px;
+  background-color: $armata_button;
+  padding: 54px 28px 28px 28px;
+  margin: 65px 12px 30px 12px;
+  position: relative;
+  text-align: center;
+  transition: all 1.2s ease;
+  vertical-align: top;
+  border-bottom: 4px solid $cart-bottom;
+}
+
+.cards_icons img {
+  width: 55px;
+  transition: all 1.2s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cards_icons {
+  display: inline-block;
+  line-height: 120px;
+  width: 120px;
+  height: 120px;
+  background-color: $accent;
+  border-radius: 50%;
+}
+.cards h4 {
+  font: 16px "RalewayBold", sans-serif;
+  color: $dials_background;
+  margin-top: 40px;
+}
+
+.cards p {
+  margin: 30px 0 25px 0;
+  font: 14px "RalewayRegular", sans-serif;
+  color: $color-form-text;
+}
+
+.cards span {
+  color: $accent;
+  font-family: "RalewayBold";
+}
+.financ_cart .cart:hover {
+  cursor: pointer;
+  border-bottom: 4px solid $border-bottom;
+}
+
+.cards_icons:hover {
+  transform: scale(1.1);
+  transition: all 1.2s ease;
+}
+
+.financ_cart_button {
+  background-color: $finans-cart-background;
+  max-width: 100%;
+  height: auto;
+  padding: 50px 0 45px 0;
+}
+
+.financ_cart_button button {
+  padding: 10px 30px;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  background-color: $accent;
+  border: none;
+  font: 16px "PFCentroSlabProBold", sans-serif;
+  border-bottom: 3px solid $border-bottom;
+  color: $item-p;
+}
+
+.financ_cart_button button:hover {
+  background-color: rgba(255,179,56, .9);
+  transition: all .45s ease-in-out;
+}

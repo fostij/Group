@@ -1,0 +1,125 @@
+.accounting_services {
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  background-color: $armata_button;
+  padding: 103px 0 62px 0;
+}
+
+.accounting_services:before {
+  content: "";
+  background: url("../../img/bah_2.png") repeat;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  position: relative;
+}
+
+.accounting_services h1 {
+  text-align: center;
+  font: 30px "PFCentroSlabProMedium", sans-serif;
+  color: $background_section-1;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.accounting_services h1:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-bottom: 4px solid $border-bottom;
+  width: 145px;
+  left: 43.5%;
+  border-radius: 1px;
+  bottom: 1px;
+}
+
+.accounting_services p {
+  text-align: center;
+  margin-top: 30px;
+  font: 15px "RalewayRegular", sans-serif;
+  line-height: 22px;
+  opacity: .9;
+  color: $background_section-1;
+}
+
+.accounting_services b {
+  font: 15px "RalewayBold", sans-serif;
+}
+
+
+.given {
+  position: relative;
+  background: url("../../img/s3_sun_bg.png") no-repeat center center;
+  max-width: 100%;
+  margin-top: 30px;
+  height: 850px;
+  z-index: 1;
+}
+
+.given_item h4 {
+  font: 22px "PFCentroSlabProMedium", sans-serif;
+  line-height: 20px;
+}
+
+.given_item a {
+  color: $accent;
+  text-decoration: none;
+}
+.given_item a:hover {
+  text-decoration: underline;
+}
+
+.given_item p {
+  font: 15px "RalewayRegular", sans-serif;
+  margin-top: 27px;
+  color: $item-botoom;
+  margin-top: 25px;
+  padding: 0;
+  text-align: left;
+
+}
+
+.item_2 {
+  margin: 90px 0 104px 60px;
+}
+
+.given_item:nth-child(2) .item_2 {
+  margin-top: 48px;
+  padding-bottom: 50px;
+}
+
+.img_given img{
+  width: 130px;
+  height: 130px;
+  z-index: 2;
+  position: absolute;
+  left: 33.2%;
+  margin-top: 59px;
+  text-align: center;
+}
+
+.given_button {
+  background-color: $armata-content;
+  padding: 67px 0 60px 0;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+.given_button button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  text-align: center;
+  background-color: $accent;
+  border: none;
+  font: 16px "PFCentroSlabProBold", sans-serif;
+  border-bottom: 3px solid $border-bottom;
+  color: $item-p;
+}
+
+.given_button button:hover {
+  background-color: rgba(255,179,56, .9);
+  transition: all .45s ease-in-out;
+}

@@ -1,0 +1,164 @@
+.profesion {
+  background-color: $background_section-1;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  padding: 93px 0 90px 0;
+}
+
+.profesion:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: -5px;
+  background: url("../../img/bah_1.png") repeat;
+}
+
+.profesion h1 {
+  font: 30px "PFCentroSlabProMedium", sans-serif;
+  color: $armata_button;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.profesion h1:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid $border-bottom;
+  width: 170px;
+  left: 0;
+  border-radius: 1px;
+  padding-bottom: 10px;
+}
+
+.profesion p {
+  font: 15px "RalewayRegular", sans-serif;
+  color: $paragraph;
+  line-height: 22px;
+  margin-bottom: 80px;
+}
+
+
+.profesion img {
+  vertical-align: top;
+  height: 73px;
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.on {
+  width: 150px;
+  height: 187px;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: top;
+}
+.on:hover {
+  margin-top: -12px;
+  color: $accent;
+  text-decoration: none;
+  transition: all .6s ease-in-out, .6s;
+  transition-duration:  .6s;
+}
+
+.on p {
+  font: 13px "RalewayBold", sans-serif;
+  color: $paragraph;
+}
+
+.s8_items {
+  text-align: center;
+  margin-bottom: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.form_2 {
+  max-width: 100%;
+  height: auto;
+  padding: 37px 35px 20px 35px;
+  background-color: rgba(221, 221, 221, .8);
+  border-bottom: $form-2-border-bottom 4px solid;
+}
+
+.form_2 h4 {
+  color: $color-h1;
+  font: 2.0625em "PFCentroSlabProMedium", sans-serif;
+  margin-bottom: 21px;
+}
+
+.form_2 p {
+  font: 14px  "RalewayRegular", sans-serif;
+  margin-bottom: 30px;
+  line-height: 1.4375em;
+  color: $form-2-color
+}
+
+.form_2 span {
+  font: 13px "RalewayRegular", sans-serif;
+  display: block;
+  letter-spacing: 1.5px;
+  color: $form-2-span;
+}
+
+.form_2 input {
+  display: block;
+  color: $background_section-1;
+  width: 297px;
+  height: 48px;
+  border: none;
+  border-top: 4px solid $form-2-border;
+  background-color: rgba(192,192,192, .8);
+  margin: 10px 0 25px 0;
+  padding-left: 10px;
+  font: 14px "RalewayRegular", sans-serif;
+}
+
+.form_2 input:focus {
+  display: inline-block;
+  border-top: 4px solid $button-buttom;
+  outline: none;
+  background-color: rgba(53,73,95, .8);
+  transition: all .5s ease-in-out;
+}
+
+.form_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_button .button  {
+  padding: 10px 35px;
+  background-color: $accent;
+  border: none;
+  border-bottom: 3px solid $button-buttom;
+  font: 20px "PFCentroSlabProBold", sans-serif;
+  outline: none;
+  margin: 5px 0 10px 0;
+  border-radius: 2px 2px 0 0;
+
+}
+
+.form_button .button:hover {
+  background-color: rgba(255,179,56, .9);
+  transition: all .45s ease;
+  color: $item-p;
+}
+
+.button_next img {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-top: 90px;
+  z-index: 2;
+  opacity: .7;
+  transition: all .25s ease;
+  cursor: pointer;
+}
+
+.button_next img:hover {
+  opacity: 1;
+}
+

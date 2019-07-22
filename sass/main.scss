@@ -1,0 +1,59 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+@import "reset";
+@import "_blocks/header";
+@import "_blocks/home section_1";
+@import "_blocks/section_2";
+@import "_blocks/deals";
+@import "_blocks/accounting_services";
+@import "_blocks/financ";
+@import "_blocks/work";
+@import "_blocks/contact";
+@import "_blocks/slider";
+@import "_blocks/profesion";
+@import "_blocks/footer";
+
+
+::placeholder {
+	color: #666;
+}
+
+.container {
+	max-width: 1170px;
+}
+
+.row {
+
+}
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	height: 100vh;
+	position: relative;
+	line-height: 1.5px;
+	font-family: $default-font;
+	overflow-x: hidden;
+	outline: none;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media"; // Always at the end
